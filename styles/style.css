@@ -1,0 +1,12 @@
+/* Google font link start */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* Google font link close */
+
+/* Universal tag selector style start */
+*{
+  font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Universal tag selector style close */
