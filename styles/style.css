@@ -112,58 +112,56 @@ nav div p {
   color: var(--secondery-text);
   margin: 2rem auto;
 }
-.form{
-background: rgba(255, 255, 255, 0.2);
-padding: 0.8rem 0.9rem;
-margin-top: 1rem;
+.form {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.8rem 0.9rem;
+  margin-top: 1rem;
 }
-.form input{
+.form input {
   border-radius: 8px;
   padding: 10px 15px;
   border: none;
   font-size: 1rem;
   color: var(--title-text);
   background: var(--secondery-text);
-  max-width:140px;
+  max-width: 140px;
   margin-right: 10px;
 }
-.form select{
+.form select {
   border-radius: 8px;
   padding: 10px 15px;
   border: none;
   font-size: 1rem;
   color: var(--title-text);
   background: var(--secondery-text);
-  max-width:140px;
+  max-width: 140px;
   margin: auto 10px auto auto;
 }
 /* Banner section style close */
 
-
 /* Popular ture section style start */
-.popular-ture{
+.popular-ture {
   display: flex;
-  gap:5rem;
+  gap: 5rem;
   justify-content: center;
   align-items: start;
 }
-.popular-content h3{
-  text-align:start ;
+.popular-content h3 {
+  text-align: start;
   margin-bottom: 2rem;
 }
-.popular-content p{
-  text-align:start ;
+.popular-content p {
+  text-align: start;
   line-height: 26px;
-
 }
-.popular-content button{
+.popular-content button {
   margin-top: 1.8rem;
 }
 .popular-content ul {
   margin: 1.5rem auto;
 }
-.popular-content ul li{
-  text-align:start ;
+.popular-content ul li {
+  text-align: start;
   line-height: 26px;
   margin-left: 1rem;
   font-size: 1rem;
@@ -174,78 +172,108 @@ margin-top: 1rem;
 /* Popular ture section style close */
 
 /* Choose destinaton saction style start */
-.destination-img img{
-  width:100%;
+.destination-img img {
+  width: 100%;
   height: 300px;
   filter: brightness(70%);
 }
-.destination-img .div-1{
+.destination-img .div-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem;
 }
-.destination-img .div-1 img{
+.destination-img .div-1 img {
   width: 100%;
 }
 
-.destination-img .div-1 div{
+.destination-img .div-1 div {
   position: relative;
 }
-.destination-img .div-1 div p{
+.destination-img .div-1 div p {
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 50%;
   font-size: 2rem;
   color: var(--secondery-text);
   transform: translate(-50%, -50%);
-  
 }
 
-.destination-img .div-2{
+.destination-img .div-2 {
   display: grid;
-  grid-template-columns:0.8fr 1fr .7fr;
+  grid-template-columns: 0.8fr 1fr 0.7fr;
   gap: 1.25rem;
   margin-top: 1.25rem;
-
 }
-.destination-img .div-2 img{
+.destination-img .div-2 img {
   width: 100%;
 }
 
-.destination-img .div-2 div{
+.destination-img .div-2 div {
   position: relative;
 }
-.destination-img .div-2 div p{
+.destination-img .div-2 div p {
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 50%;
   font-size: 2rem;
   color: var(--secondery-text);
   transform: translate(-50%, -50%);
-  
 }
 
-.destination-img .div-3{
+.destination-img .div-3 {
   display: grid;
-  grid-template-columns:0.9fr 1fr;
+  grid-template-columns: 0.9fr 1fr;
   gap: 1.25rem;
   margin-top: 1.25rem;
-
 }
-.destination-img .div-3 img{
+.destination-img .div-3 img {
   width: 100%;
 }
 
-.destination-img .div-3 div{
+.destination-img .div-3 div {
   position: relative;
 }
-.destination-img .div-3 div p{
+.destination-img .div-3 div p {
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 50%;
   font-size: 2rem;
   color: var(--secondery-text);
   transform: translate(-50%, -50%);
-  
 }
 /* Choose destinaton saction style close */
+
+/* Why choose us section style start */
+.choose-us-card {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.choose-us-card div {
+  padding: 1.25rem;
+  width: 49%;
+  margin-top: 2rem;
+  border-radius: 8px;
+}
+.choose-us-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+.choose-us-card div p {
+  text-align: start;
+  margin-left: 0px;
+}
+.card-1{
+  background: rgb(236, 231, 231);
+}
+.card-2{
+background: rgb(244, 253, 255);
+}
+.card-3{
+background: rgb(254, 245, 245);
+}
+
+/* Why choose us section style close */
