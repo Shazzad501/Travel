@@ -1,12 +1,80 @@
 /* Google font link start */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 /* Google font link close */
 
 /* Universal tag selector style start */
-*{
+* {
   font-family: "Merriweather", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 /* Universal tag selector style close */
+
+/* sheard style start */
+:root {
+  --btn-color: rgb(255, 84, 0);
+  --title-text: rgb(19, 19, 24);
+  --des-text:rgb(90, 90, 93);
+  --primary-text: rgba(19, 19, 24, 0.7);
+  --secondery-text: white;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 1.2rem;
+  color: var(--secondery-text);
+  background: var(--btn-color);
+}
+
+section {
+  max-width: 1300px;
+  margin: auto auto 80rem auto;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--title-text);
+}
+.section-description{
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--des-text);
+}
+.div-title{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--title-text);
+}
+/* sheard style close */
+
+/* Navigation var style start */
+nav span {
+  color: var(--btn-color);
+}
+nav {
+  max-width: 1300px;
+  margin: auto auto 80rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+nav div h3 {
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+nav div p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* Navigation var style close */
