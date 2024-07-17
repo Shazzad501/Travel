@@ -31,7 +31,7 @@
 
 section {
   max-width: 1300px;
-  margin: auto auto 5rem auto;
+  margin: auto auto 6rem auto;
 }
 .section-title {
   font-size: 2.5rem;
@@ -137,3 +137,40 @@ margin-top: 1rem;
   margin: auto 10px auto auto;
 }
 /* Banner section style close */
+
+
+/* Popular ture section style start */
+.popular-ture{
+  display: flex;
+  gap:5rem;
+  justify-content: center;
+  align-items: start;
+}
+.popular-content h3{
+  text-align:start ;
+  margin-bottom: 2rem;
+}
+.popular-content p{
+  text-align:start ;
+  line-height: 26px;
+
+}
+.popular-content button{
+  margin-top: 2rem;
+}
+.popular-content ul {
+  margin: 2rem auto;
+}
+.popular-content ul li{
+  text-align:start ;
+  line-height: 26px;
+  margin-left: 1rem;
+  font-size: 1rem;
+
+  font-weight: 400;
+  color: var(--des-text);
+}
+.popular-img img{
+
+}
+/* Popular ture section style close */
