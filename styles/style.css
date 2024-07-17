@@ -334,9 +334,14 @@ nav div p {
 /* simple parfact section start */
 .perfact{
   display: flex;
+  flex-direction: row;
   gap: 5rem;
   justify-content: center;
   align-items: start;
+}
+.perfact-content{
+  max-width:50%;
+  border: 1px soid green;
 }
 .perfact-content h3 {
   text-align: start;
@@ -361,7 +366,11 @@ nav div p {
   font-weight: 400;
   color: var(--des-text);
 }
+.parfact-img img{
+  max-width: 100%;
+}
 .perfact-img{
+  max-width: 50%;
   position: relative;
 }
 .perfact-img p{
@@ -474,3 +483,337 @@ footer hr{
   text-align: center;
 }
 /* footer section style close */
+
+
+
+/* responsive media query start */
+
+@media screen and (max-width:576px) {
+/* header */
+  nav {
+    max-width:100%;
+  }
+  nav div p {
+    display:none;
+  }
+  .banner {
+    padding: 30px 20px;
+  }
+  .banner-content {
+    text-align:start;
+  }
+  .banner-content h3 {
+text-align: start;
+  }
+  .banner-content p {
+ text-align: start;
+  }
+  .form input {
+
+    margin-bottom: 15px;
+  }
+  .form select {
+    margin: auto 15px 15px auto;
+  }
+  /* header close */
+
+  /* popular */
+  .popular-ture {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content:start;
+    align-items: start;
+  }
+  .popular-content{
+    width:100%;
+  }
+  
+  .popular-img{
+    width: 100%;
+  }
+  .popular-img img{
+    width:100%;
+  }
+  /* popular end */
+
+  /* destination */
+ 
+  .destination-img .div-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.25rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .destination-img .div-1 img {
+    width: 100%;
+  }
+  
+  .destination-img .div-2 {
+
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .destination-img .div-2 img {
+    width: 100%;
+  }
+  .destination-img .div-3 {
+    grid-template-columns:1fr;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .destination-img .div-3 img {
+    width: 100%;
+  }
+  /* destination end */
+
+  /* Why choose us */
+  .choose-us-card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .choose-us-card div {
+    padding: 1.25rem;
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 8px;
+  }
+/* why choose us end */
+
+/* deals and discount */
+.discount{
+  padding-left:10px;
+  padding-right: 10px;
+}
+.discount-1 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.discount-content {
+  width: 100%;
+
+}
+.discount-2 {
+padding-left: 20px;
+padding-right: 20px;
+}
+.discount-content-2 {
+  width: 100%;
+}
+/* deals & discount end */
+
+/* parfact place */
+
+.perfact{
+  display: none;
+}
+/* perfact place end */
+
+/* newslatter */
+.newslatter{
+  display: flex;
+  flex-direction:column;
+
+}
+.newlatter-form{
+  max-width: 100%;
+  margin-bottom: 50px;
+
+}
+
+.newslatter-img{
+  max-width: 100%;
+}
+.newslatter-img img{
+  width: 100%;
+
+}
+.newslatter-img button{
+  display: none;
+}
+/* newslatter end */
+
+/* footer */
+footer{
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+
+footer hr{
+  width: 80%;
+}
+}
+
+
+/* Tablet responsiv */
+@media screen and (min-width:576px) and (max-width:992px) {
+  /* header */
+    nav {
+      max-width:100%;
+    }
+    nav div p {
+      display:none;
+    }
+    .banner {
+      padding: 30px 20px;
+    }
+    .banner-content {
+      text-align:start;
+    }
+    .banner-content h3 {
+  text-align: start;
+    }
+    .banner-content p {
+   text-align: center;
+    }
+    .form input {
+  
+      margin-bottom: 15px;
+    }
+    .form select {
+      margin: auto 15px 15px auto;
+    }
+    /* header close */
+  
+    /* popular */
+    .popular-ture {
+      padding-left: 20px;
+      padding-right: 20px;
+      flex-direction: column;
+      gap: 3rem;
+      justify-content:start;
+      align-items: start;
+    }
+    .popular-content{
+      width:100%;
+    }
+    
+    .popular-img{
+      width: 100%;
+    }
+    .popular-img img{
+      width:100%;
+    }
+    /* popular end */
+  
+    /* destination */
+   
+    .destination-img .div-1 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1.25rem;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .destination-img .div-1 img {
+      width: 100%;
+    }
+    
+    .destination-img .div-2 {
+  
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+      margin-top: 1.25rem;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .destination-img .div-2 img {
+      width: 100%;
+    }
+    .destination-img .div-3 {
+      grid-template-columns:1fr;
+      gap: 1.25rem;
+      margin-top: 1.25rem;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .destination-img .div-3 img {
+      width: 100%;
+    }
+    /* destination end */
+  
+    /* Why choose us */
+    .choose-us-card {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .choose-us-card div {
+      padding: 1.25rem;
+      width: 100%;
+      margin-top: 2rem;
+      border-radius: 8px;
+    }
+  /* why choose us end */
+  
+  /* deals and discount */
+  .discount{
+    padding-left:10px;
+    padding-right: 10px;
+  }
+  .discount-1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .discount-content {
+    width: 100%;
+  
+  }
+  .discount-2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  .discount-content-2 {
+    width: 100%;
+  }
+  /* deals & discount end */
+  
+  /* parfact place */
+  
+  .perfact{
+    display: none;
+  }
+  /* perfact place end */
+  
+  /* newslatter */
+  .newslatter{
+    display: flex;
+    flex-direction:column;
+  
+  }
+  .newlatter-form{
+    max-width: 100%;
+    margin-bottom: 50px;
+  
+  }
+  
+  .newslatter-img{
+    max-width: 100%;
+  }
+  .newslatter-img img{
+    width: 100%;
+  
+  }
+  .newslatter-img button{
+    display: none;
+  }
+  /* newslatter end */
+  
+  /* footer */
+  footer{
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+  
+  
+  footer hr{
+    width: 80%;
+  }
+  }
