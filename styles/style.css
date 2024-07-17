@@ -42,6 +42,7 @@ section {
 .section-description {
   font-size: 1rem;
   font-weight: 400;
+  margin: 1.25rem;
   text-align: center;
   color: var(--des-text);
 }
@@ -156,10 +157,10 @@ margin-top: 1rem;
 
 }
 .popular-content button{
-  margin-top: 2rem;
+  margin-top: 1.8rem;
 }
 .popular-content ul {
-  margin: 2rem auto;
+  margin: 1.5rem auto;
 }
 .popular-content ul li{
   text-align:start ;
@@ -170,7 +171,81 @@ margin-top: 1rem;
   font-weight: 400;
   color: var(--des-text);
 }
-.popular-img img{
+/* Popular ture section style close */
+
+/* Choose destinaton saction style start */
+.destination-img img{
+  width:100%;
+  height: 300px;
+  filter: brightness(70%);
+}
+.destination-img .div-1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+.destination-img .div-1 img{
+  width: 100%;
+}
+
+.destination-img .div-1 div{
+  position: relative;
+}
+.destination-img .div-1 div p{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  font-size: 2rem;
+  color: var(--secondery-text);
+  transform: translate(-50%, -50%);
+  
+}
+
+.destination-img .div-2{
+  display: grid;
+  grid-template-columns:0.8fr 1fr .7fr;
+  gap: 1.25rem;
+  margin-top: 1.25rem;
 
 }
-/* Popular ture section style close */
+.destination-img .div-2 img{
+  width: 100%;
+}
+
+.destination-img .div-2 div{
+  position: relative;
+}
+.destination-img .div-2 div p{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  font-size: 2rem;
+  color: var(--secondery-text);
+  transform: translate(-50%, -50%);
+  
+}
+
+.destination-img .div-3{
+  display: grid;
+  grid-template-columns:0.9fr 1fr;
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+
+}
+.destination-img .div-3 img{
+  width: 100%;
+}
+
+.destination-img .div-3 div{
+  position: relative;
+}
+.destination-img .div-3 div p{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  font-size: 2rem;
+  color: var(--secondery-text);
+  transform: translate(-50%, -50%);
+  
+}
+/* Choose destinaton saction style close */
