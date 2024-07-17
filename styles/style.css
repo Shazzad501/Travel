@@ -15,7 +15,7 @@
 :root {
   --btn-color: rgb(255, 84, 0);
   --title-text: rgb(19, 19, 24);
-  --des-text:rgb(90, 90, 93);
+  --des-text: rgb(90, 90, 93);
   --primary-text: rgba(19, 19, 24, 0.7);
   --secondery-text: white;
 }
@@ -24,26 +24,28 @@
   border-radius: 8px;
   padding: 10px 15px;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--secondery-text);
   background: var(--btn-color);
 }
 
 section {
   max-width: 1300px;
-  margin: auto auto 80rem auto;
+  margin: auto auto 5rem auto;
 }
 .section-title {
   font-size: 2.5rem;
   font-weight: 800;
+  text-align: center;
   color: var(--title-text);
 }
-.section-description{
+.section-description {
   font-size: 1rem;
   font-weight: 400;
+  text-align: center;
   color: var(--des-text);
 }
-.div-title{
+.div-title {
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--title-text);
@@ -56,7 +58,7 @@ nav span {
 }
 nav {
   max-width: 1300px;
-  margin: auto auto 80rem auto;
+  margin: auto auto 2rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,3 +80,60 @@ nav div p {
   cursor: pointer;
 }
 /* Navigation var style close */
+
+/* Banner section style start */
+.banner {
+  border-radius: 10px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8),
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../assets/header.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 180px;
+}
+.banner-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner-content h3 {
+  color: var(--secondery-text);
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+.banner-content p {
+  color: var(--secondery-text);
+  margin: 2rem auto;
+}
+.form{
+background: rgba(255, 255, 255, 0.2);
+padding: 0.8rem 0.9rem;
+margin-top: 1rem;
+}
+.form input{
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 1rem;
+  color: var(--title-text);
+  background: var(--secondery-text);
+  max-width:140px;
+  margin-right: 10px;
+}
+.form select{
+  border-radius: 8px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 1rem;
+  color: var(--title-text);
+  background: var(--secondery-text);
+  max-width:140px;
+  margin: auto 10px auto auto;
+}
+/* Banner section style close */
