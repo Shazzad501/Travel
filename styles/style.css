@@ -34,7 +34,7 @@ section {
   margin: auto auto 6rem auto;
 }
 .section-title {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 800;
   text-align: center;
   color: var(--title-text);
@@ -42,14 +42,17 @@ section {
 .section-description {
   font-size: 1rem;
   font-weight: 400;
-  margin: 1.25rem;
+  margin: 1.25rem auto;
   text-align: center;
   color: var(--des-text);
 }
 .div-title {
-  font-size: 1.5rem;
-  font-weight: 800;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: var(--title-text);
+}
+span {
+  color: var(--btn-color);
 }
 /* sheard style close */
 
@@ -266,14 +269,178 @@ nav div p {
   text-align: start;
   margin-left: 0px;
 }
-.card-1{
+.card-1 {
   background: rgb(236, 231, 231);
 }
-.card-2{
-background: rgb(244, 253, 255);
+.card-2 {
+  background: rgb(244, 253, 255);
 }
-.card-3{
-background: rgb(254, 245, 245);
+.card-3 {
+  background: rgb(254, 245, 245);
 }
 
 /* Why choose us section style close */
+
+/* Deals & Discount section style start */
+.discount-1 {
+  background: url(../assets/discount.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+.discount-content {
+  width: 50%;
+  padding: 3rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  text-align: start;
+}
+.discount-content p{
+  text-align: start;
+  margin-bottom:1.25rem;
+}
+.discount-2 {
+  background: url(../assets/Group\ 40.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  margin-top: 1.25rem;
+  border-radius: 0.5rem;
+}
+.discount-content-2 {
+  width: 50%;
+  padding: 3rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  text-align: start;
+}
+.discount-content-2 p{
+  text-align: start;
+  margin-bottom:1.25rem;
+}
+/* Deals & Discount section style close */
+
+/* simple parfact section start */
+.perfact{
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  align-items: start;
+}
+.perfact-content h3 {
+  text-align: start;
+  margin-bottom: 2rem;
+}
+.perfact-content p {
+  text-align: start;
+  line-height: 26px;
+}
+.perfact-content button {
+  margin-top: 1.8rem;
+}
+.perfact-content ul {
+  margin: 1.5rem auto;
+}
+.perfact-content ul li {
+  text-align: start;
+  line-height: 26px;
+  margin-left: 1rem;
+  font-size: 1rem;
+
+  font-weight: 400;
+  color: var(--des-text);
+}
+.perfact-img{
+  position: relative;
+}
+.perfact-img p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.25rem;
+  color: var(--secondery-text);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* simple parfact section close */
+
+/* Newslatter saction start */
+.newslatter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.newlatter-form{
+  max-width: 45%;
+  padding: 4.2rem 2.5rem;
+  border: 2px solid var(--btn-color);
+  border-radius: 8px;
+}
+.newlatter-form h3{
+  text-align: start;
+}
+.newlatter-form p{
+  text-align: start;
+}
+.newlatter-form hr{
+  margin-bottom: 1.25rem;
+}
+.newlatter-form input{
+  display: block;
+  width:100%;
+  margin-bottom:0.8rem;
+  padding:10px;
+  background: #F3F3F3;
+  border: none;
+  border-radius: 8px;
+}
+.newlatter-form button{
+  width: 100%;
+  padding: 10px;
+  background: var(--btn-color);
+  border: none;
+  color: var(--secondery-text);
+  border-radius: 8px;
+}
+.newslatter-img{
+  max-width: 53%;
+  position: relative;
+}
+.newslatter-img img{
+  width: 100%;
+
+}
+.newslatter-img button{
+padding: 10px 15px;
+background: var(--btn-color);
+color: var(--secondery-text);
+border: none;
+border-radius: 8px;
+position: absolute;
+top:58%;
+left: 58%;
+transform:rotate(-30deg);
+}
+.newslatter-img button h4{
+  font-size:2rem;
+  font-weight: 800;
+}
+.newslatter-img button p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+/* Newslatter saction close */
